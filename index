@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form </title>
+</head>
+<body>
+    <fieldset >
+       <legend>Personal details</legend>
+        <label for="Fname">First Name</label>
+        <input type="text" id="fName" required> <br> <br>
+
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="Last Name" required> <br> <br>
+
+        <label for="gender">gender</label>
+        <input type="text" id="gender" required> <br> <br>
+
+        <label for="dob">DOB</label>
+        <input type="date" id="Dob" required> <br> <br>
+
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" required> <br> <br>
+
+
+    </fieldset>
+    <fieldset>
+        <legend>Education details</legend>
+
+        <label for="">Department</label><br> <br>
+
+        
+        <input type="radio" id="cse" name="dep">
+        <label for="cse">CSE</label> 
+
+        <input type="radio" id="ise" name="dep">
+        <label for="ise">ISE</label> 
+
+        <input type="radio" id="ece" name="dep">
+        <label for="ECe">ECE</label> 
+
+        <input type="radio" id="ME" name="dep">
+        <label for="ME">ME</label> 
+
+        <input type="radio" id="Civil" name="dep">
+        <label for="civil">Civil</label> 
+
+        <input type="radio" id="EEE" name="dep">
+        <label for="EEE">EEE</label> <br><br>
+
+        <label for="College">College Name</label>
+        <input type="college" id="Name" required> <br><br>
+       
+
+        
+        <label for="year of join">year of join </label>
+        <input list="yoj" id="year of join"> <br><br>
+        
+        <datalist id="yoj">
+
+            <option >2017</option>
+            <option >2018</option>
+            <option >2019</option>
+            <option >2020</option>
+        </datalist>
+         
+        <label for="year of passout">year of passout</label>
+        <input list="yop" id="year of passout"><br><br>
+
+        <datalist id="yop">
+
+            <option >2021</option>
+            <option >2022</option>
+            <option >2023</option>
+            <option >2024</option>
+        </datalist>
+
+        <label for="percentage">percentage</label>
+         <input type="number" id="percentage"><br><br>
+
+         </fieldset>
+        <fieldset>
+    <legend>Skills</legend>
+
+    <input type="checkbox" name="html" id="html">
+    <label for="">HTML</label><br>
+
+    <input type="checkbox" name="css" id="css">
+    <label for="">CSS</label><br>
+
+    <input type="checkbox" name="JS" id="JS">
+    <label for="">JS</label><br>
+
+    <input type="checkbox" name="java" id="java">
+    <label for="">Java</label><br>
+
+    <input type="checkbox" name="mysql" id="mysql">
+    <label for="">MYSQL</label>
+
+</fieldset>
+<fieldset>
+<legend>Resume</legend>
+<label for="PdfFile">upload resume</label>
+<input type="file" name="pdffile" id="pdffile" required>
+</fieldset>
+<br>
+   <input type="submit">
+        </body>
+        </html>
+
+
